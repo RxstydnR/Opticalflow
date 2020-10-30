@@ -22,6 +22,8 @@ Included process are below, but **more will be added in the future**.
 python image_preprocess.py --data_path [Image folder] --save_path [Save folder]
 ```
 
+
+
 ## make_movie.py
 
 This code is for create a video from multiple image data using "opencv2".
