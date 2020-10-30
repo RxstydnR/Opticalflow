@@ -41,7 +41,7 @@ python make_movie.py --data_path [Image folder] --save_path [Save folder] --fps 
 
 ## opticalflow_image.py
 
-This code calculates the optical flow of image sequence and outputs it to the video.
+This code calculates the optical flow of image sequence and outputs it to image sequence.
 **Optical flow parameters have to be adjusted by your hand.**
 
 
@@ -51,7 +51,7 @@ Note that image names should be consistent.(ex. 00001.jpg,00002.jpg) <br>
 Unless the images in the video may not line up in the correct order.
 
 ```bash
-python opticalflow_image.py --data_path [Image folder] --save_path [Save folder] --fps 20.0
+python opticalflow_image.py --data_path [Image folder] --save_path [Save folder]
 ```
 
 ---
@@ -74,4 +74,7 @@ python opticalflow_movie.py --data_path [Movie path] --save_path [Save folder] -
 
 ## Note
 
-I test environments under Mac, not Windows.
+MP4 video sometimes fails to be save.<br>
+**.avi** format is used in these codes.
+
+**I test environments under Mac, not Windows.**
