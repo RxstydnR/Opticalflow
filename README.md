@@ -22,6 +22,7 @@ Included process are below, but **more will be added in the future**.
 python image_preprocess.py --data_path [Image folder] --save_path [Save folder]
 ```
 
+---
 
 
 ## make_movie.py
