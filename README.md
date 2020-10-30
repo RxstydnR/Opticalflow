@@ -21,9 +21,7 @@ Included process are below, but **more will be added in the future**.
 ```bash
 python image_preprocess.py --data_path [Image folder] --save_path [Save folder]
 ```
-
 ---
-
 
 ## make_movie.py
 
@@ -36,8 +34,42 @@ Note that image names should be consistent.(ex. 00001.jpg,00002.jpg) <br>
 Unless the images in the video may not line up in the correct order.
 
 ```bash
-python make_movie.py --data_path [Image folder] --save_path [Save folder] --fps [20.0]
+python make_movie.py --data_path [Image folder] --save_path [Save folder] --fps 20.0
 ```
+
+---
+
+## opticalflow_image.py
+
+This code calculates the optical flow of image sequence and outputs it to the video.
+**Optical flow parameters have to be adjusted by your hand.**
+
+
+**Run "opticalflow_image.py"**
+
+Note that image names should be consistent.(ex. 00001.jpg,00002.jpg) <br>
+Unless the images in the video may not line up in the correct order.
+
+```bash
+python opticalflow_image.py --data_path [Image folder] --save_path [Save folder] --fps 20.0
+```
+
+---
+
+## opticalflow_movie.py
+
+This code calculates the optical flow of the video and outputs it to the video.
+**Optical flow parameters have to be adjusted by your hand.**
+
+
+**Run "opticalflow_movie.py"**
+
+```bash
+python opticalflow_movie.py --data_path [Movie path] --save_path [Save folder] --fps 20.0
+```
+
+
+
 
 
 ## Note
