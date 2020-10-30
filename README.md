@@ -5,7 +5,7 @@ These codes are written for calculating and visualizing the movement of the auro
 # Usage
 ## image_preprocess.py
 
-**In : images ** <br>
+**In : images** <br>
 **Out : processed images**
 
 This code is for formatting images that are unevenly shaped or have unwanted parts.
@@ -28,7 +28,7 @@ python image_preprocess.py --data_path [Image folder] --save_path [Save folder]
 
 ## make_movie.py
 
-**In : images ** <br>
+**In : images** <br>
 **Out : a movie**
 
 This code is for create a video from multiple image data using "opencv2".
@@ -46,7 +46,7 @@ python make_movie.py --data_path [Image folder] --save_path [Save folder] --fps 
 
 ## opticalflow_image.py
 
-**In : images ** <br>
+**In : images** <br>
 **Out : opticalflow images**
 
 This code calculates the optical flow of image sequence and outputs it to image sequence.
@@ -66,7 +66,7 @@ python opticalflow_image.py --data_path [Image folder] --save_path [Save folder]
 
 ## opticalflow_movie.py
 
-**In : movie ** <br>
+**In : movie** <br>
 **Out : opticalflow movie**
 
 This code calculates the optical flow of the video and outputs it to the video.
